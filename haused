@@ -1,0 +1,59 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local NorseIImage = Instance.new("ImageLabel")
+local NorseIImageLabel = Instance.new('ImageLabel', Frame)
+local UsernameLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.450, 0, 0.350, 0)
+Frame.Size = UDim2.new(0, 450, 0, 450)
+Frame.BackgroundTransparency = 0
+Frame.ZIndex = 0
+
+NorseIImage = "http://www.roblox.com/asset/?id=3747193795"
+
+NorseIImageLabel.BackgroundColor3 = Color3.fromRGB(1,1,1)
+NorseIImageLabel.Size = UDim2.new(0, 450, 0, 450)
+NorseIImageLabel.Image = NorseIImage
+NorseIImageLabel.BackgroundTransparency = 0
+
+UsernameLabel.Name = "UsernameLabel"
+UsernameLabel.Parent = Frame
+UsernameLabel.BackgroundTransparency = 1
+UsernameLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+UsernameLabel.BorderColor3 = Color3.new(0, 0, 0)
+UsernameLabel.BorderSizePixel = 0
+UsernameLabel.Position = UDim2.new(0.443, 0, 0.390, 0)
+UsernameLabel.Size = UDim2.new(0, 141, 0, 24)
+UsernameLabel.Font = Enum.Font.Ubuntu
+UsernameLabel.Text = "Check F9" 
+UsernameLabel.TextColor3 = Color3.new(255, 0, 0)
+UsernameLabel.TextSize = 100
+UsernameLabel.ZIndex = 1
+
+for count = 1, 20 do
+	print(count)
+print([[
+ Osiris Gang on top May 2022, Osiris Gang Defeated Scotland and his fags, Scartesu and other skids
+ Unfortunately we have a retard in the group who likes to be a snake Syp. Cordends single handed Scotland and his gang.
+ CSU top 1 outlaster, Grim good coder. Scott good hvhs, May for the discord packings and Loops, Cordends coding the 
+ login screen and injecting a backdoor into Norse. Norse V3.3 Last update ever. Cordends Undefeated. CSU Outlasts 
+ undefeated May undefeated We are a god tier group. Scartesu, Scotland, WeekendEclipse, Devour, 223REMORSE, 
+ SmokeAllot, etc couldnt defeat us. Zino for being a snake and Syp for being a very expected snake and Enu dick 
+ rider. We don't play roblox anymore. Xaxa for not being able to keep cory's dick out his mouth PSA The Githubs 
+ linked with the loadstrings will all be deleted so there is no trace of a link. But the script will be published on 
+ a website. If you manage to find Norse V3.3. You can take ownership of it. CommanderCory gone. Not-Kyle github will 
+ never have another update. Cordends will not be active. Cory is leaving. Scott is leaving. May is leaving. etc
+ Goodbye Ts from June 2017 to May 2022. 5 years almost 6. Norse is no longer active. Norse is deleted. No longer a 
+ prison script. Sad to see a game that used to be 3,000 players now to 200 players. Only in Reg
+ Prison is 3 players on weekends.
+ 
+ ]])
+ 
+ end
